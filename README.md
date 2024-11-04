@@ -78,7 +78,7 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/yourusername/taskly.git
+git clone https://github.com/BeshoAsham/Taskly.git
 cd taskly
 
 # Create a new branch for your changes
@@ -88,11 +88,6 @@ git checkout -b feature-name
 git commit -m "Description of changes"
 git push origin feature-name
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 - **Developer:** Beshoy Ibrahim Asham
