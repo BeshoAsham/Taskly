@@ -1,0 +1,45 @@
+name: todo_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.0
+  intl: ^0.19.0
+  conditional_builder_null_safety: ^0.0.6
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.10.0  # Added for app icon generation
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"  # Path to your icon image
+
+flutter:
+  uses-material-design: true
+
+  # Define assets for your app
+  assets:
+    - assets/icon/icon.png  # Ensure your icon image is here
+
+  # To add custom fonts, you can define them here
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
